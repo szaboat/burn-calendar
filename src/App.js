@@ -11,7 +11,7 @@ function App() {
       <header className="App-header">
         <h1>Burn Calendar for {MONTHS} months</h1>
         <h2>
-          by&nbsp;
+          in&nbsp;
           <select
             onChange={(e) => {
               const value = e.target.value;
@@ -27,9 +27,9 @@ function App() {
               }
             }}
           >
-            <option value="week">Week</option>
-            <option value="month">Month</option>
-            <option value="day">Day</option>
+            <option value="week">Weeks</option>
+            <option value="month">Months</option>
+            <option value="day">Days</option>
           </select>
         </h2>
       </header>
