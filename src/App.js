@@ -37,13 +37,7 @@ function App() {
 
       <section>
         {range.map((item) => {
-          return (
-            <div className={unit}>
-              {label}
-              <br />
-              {range.length - item}
-            </div>
-          );
+          return <div className={unit}></div>;
         })}
       </section>
     </div>
