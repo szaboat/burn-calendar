@@ -5,7 +5,6 @@ function App() {
   const MONTHS = 18;
   const [range, setRange] = useState([...Array(18 * 4).keys()]);
   const [unit, setUnit] = useState("week");
-  const label = unit.trim().replace(/^\w/, (c) => c.toUpperCase());
 
   return (
     <div className="App">
