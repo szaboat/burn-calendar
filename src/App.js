@@ -2,8 +2,8 @@ import "./App.css";
 import { useState } from "react";
 
 function App() {
-  const MONTHS = 18;
-  const [range, setRange] = useState([...Array(18 * 4).keys()]);
+  const MONTHS = 11;
+  const [range, setRange] = useState([...Array(11 * 4).keys()]);
   const [unit, setUnit] = useState("week");
 
   return (
